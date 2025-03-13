@@ -1,0 +1,148 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffffe;
+    color: #333;
+  }
+  
+  h1, h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('https://bernardmarr.com/img/What%20Is%20Blockchain%20A%20Super%20Simple%20Guide%20Anyone%20Can%20Understand.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-img{
+    box-shadow: 10px 10px 20px rgb(0,0,0,0.1);
+  }
+  
+  .hero-text {
+    z-index: 2;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Info Sections */
+  .info-sections {
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .info-card {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  
+  .info-card-details{
+    max-width: 600px;
+    margin: 0px 40px;
+  }
+  .info-card img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .info-card h3 {
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+  }
+  
+  .info-card p {
+    font-size: 1.3rem;
+    color: #555;
+  }
+  
+  .stats-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .stats-card h2 {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .stats-card p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .stats-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 60px;
+  }
+  

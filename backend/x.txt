@@ -1,0 +1,11 @@
+# Port for the HTTP server
+HTTP_PORT=3100
+
+# Port for the P2P WebSocket server
+P2P_PORT=5001
+
+# List of peer WebSocket addresses (comma-separated)
+PEERS=
+
+#ADMIN
+ADMIN='0xA0000000000D0000000M0000I00N'

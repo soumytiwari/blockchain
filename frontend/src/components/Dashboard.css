@@ -1,0 +1,91 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    background-color: #2c3e50;
+    color: white;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+  
+  .sidebar button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .sidebar button:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+  }
+  
+  .sidebar button span {
+    font-size: 0.8rem;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+  
+  .content {
+    margin: auto;
+  }
+  
+  .blocks{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .block {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+    background: #f9f9f9;
+    width: 300px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  form input, button {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #privateKeyFile{
+    padding-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

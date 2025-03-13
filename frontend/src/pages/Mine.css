@@ -1,0 +1,134 @@
+.mine-page {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wallet-connect-section,
+.wallet-details-section {
+  padding: 20px;
+}
+
+.wallet-info {
+  margin-bottom: 20px;
+}
+
+.wallet-info h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.wallet-address {
+  display: block;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-family: monospace;
+  word-wrap: break-word;
+}
+
+.wallet-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.mining-section {
+  margin-top: 20px;
+}
+
+.mining-status {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: white;
+  font-weight: bold;
+}
+
+.status-badge.idle {
+  background-color: #6c757d; /* Gray */
+}
+
+.status-badge.mining {
+  background-color: #ffc107; /* Yellow */
+  color: #212529; /* Dark text */
+  animation: pulse 1s infinite;
+}
+
+.status-badge.completed {
+  background-color: #28a745; /* Green */
+}
+
+.status-badge.failed {
+  background-color: #dc3545; /* Red */
+}
+
+/* Add animation for the "mining" status */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px #ffc107;
+  }
+  50% {
+    box-shadow: 0 0 20px #ffc107;
+  }
+  100% {
+    box-shadow: 0 0 5px #ffc107;
+  }
+}
+
+.recent-block-section {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.feedback {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  background-color: #eaedf0;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  padding: 10px 20px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
